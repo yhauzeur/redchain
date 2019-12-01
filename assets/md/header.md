@@ -1,3 +1,2 @@
-# @RedChainCo
-## ¡El internet es un igüalador de oportunidades para todos!
-Su acceso nos permite aprender sobre diseño, sistemas, programación, marketing, seguridad informática, e-commerce y mucho más...
+# RedChainCo
+### ¡El internet es un igüalador de oportunidades para todos!

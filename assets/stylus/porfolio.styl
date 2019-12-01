@@ -1,27 +1,42 @@
 .portfolio
+	align-items center
 	display flex
 	flex-direction row
 	flex-wrap wrap
 	justify-content space-evenly
 	margin 1em
+	a
+		text-decoration none
 	[class^=porfolio-]
+		// align-items strech
 		background-size cover
 		background-repeat no-repeat
-		background-position center
-		border-radius 20px
+		border-radius 5px
 		color white
-		margin 1em
-		// min-height 300px
-		min-width 280px
-		text-align center
+		display flex
+		justify-content center
+		margin 1em .5em
+		padding 1em
+		min-width 250px
+		max-width 350px
+		background-blend-mode multiply
+		background-color: rgba(black, .5)
+		h2
+			border-right 1px solid white
+			padding-right .5em
+			box-sizing border-box
+		p
+			padding-left .5em
 	.porfolio-service-auditoriaWeb
 		background-image url('../img/porfolio/auditoria.webp')
 	.porfolio-service-desarrolloWeb
 		background-image url('../img/porfolio/code.webp')
 	.porfolio-service-seo
-		background-image url('../img/porfolio/desarrolloweb.webp')
+		background-image url('../img/porfolio/seo.webp')
 	.porfolio-service-marketingOnline
-		background-image url('../img/porfolio/servers.webp')
+		background-image url('../img/porfolio/marketingOnline.webp')
+	.porfolio-service-socialMedia
+		background-image url('../img/porfolio/socialMedia.webp')
 	.porfolio-service-disenio
 		background-image url('../img/porfolio/desarrolloweb.webp')
 	.porfolio-service-cursos
@@ -30,3 +45,15 @@
 		background-image url('../img/porfolio/tienda.webp')
 	.porfolio-service-blog
 		background-image url('../img/porfolio/blog.webp')
+	.porfolio-service-ofertasDeTrabajo
+		background-image url('../img/porfolio/ofertasDeTrabajo.webp')
+	.porfolio-service-seminarios
+		background-image url('../img/porfolio/seminarios.webp')
+	.porfolio-service-seguridadInformatica
+		background-image url('../img/porfolio/seguridadInformatica.webp')
+	.porfolio-service-portafolioDeClientes
+		background-image url('../img/porfolio/portafolioDeClientes.webp')
+	.porfolio-service-reviews
+		background-image url('../img/porfolio/reviews.webp')
+	.porfolio-service-empateTecnologico
+		background-image url('../img/porfolio/empateTecnologico.webp')
